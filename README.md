@@ -24,5 +24,5 @@
 >在线简版：https://gfwsb.114514.best/sub2clashr?sublink= 订阅地址（无需URL编码）
    
 ### 5号转换接口
-特点：来自Z大，界面优雅，支持一键导入
-转换接口：https://clashr.tgbot.co/ui/
+特点：来自Z大，界面优雅，支持一键导入   
+>转换接口：https://clashr.tgbot.co/ui/
