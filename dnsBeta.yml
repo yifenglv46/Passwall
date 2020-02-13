@@ -1,0 +1,27 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: true
+mode: Rule
+log-level: silent
+external-controller: 127.0.0.1:9090
+
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.0/16
+  nameserver:
+   - 119.29.29.29
+   - 223.5.5.5
+  - tls://dns.rubyfish.cn:853
+  - https://dns.google/dns-query
+  - https://1.1.1.1/dns-query
+fallback:
+  - tls://dns.rubyfish.cn:853
+  - tcp://8.8.8.8
+  - tcp://1.1.1.1
+fallback-filter:
+  geoip: true
+  ipcidr:
+    - 240.0.0.0/4 
