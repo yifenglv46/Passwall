@@ -1,0 +1,26 @@
+[custom]
+custom_proxy_group=⚙️ 节点选择`select`[]🇭🇰 HK-FallBack`[]🇨🇳 TW-FallBack`[]⚙️ 手动选择
+custom_proxy_group=📺 NETFLIX`select`[]🇭🇰 HK-FallBack`[]🇨🇳 TW-FallBack`[]⚙️ 节点选择
+custom_proxy_group=🧸 巴哈姆特`select`[]🇨🇳 TW-FallBack
+custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]⚙️ 节点选择
+custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]⚙️ 节点选择
+custom_proxy_group=🛑 广告屏蔽`select`[]REJECT`[]DIRECT
+custom_proxy_group=⚙️ 手动选择`select`.*
+custom_proxy_group=🇨🇳 TW-FallBack`fallback`台湾`http://www.gstatic.com/generate_204`500
+custom_proxy_group=🇭🇰 HK-FallBack`fallback`香港`http://www.gstatic.com/generate_204`500
+
+enable_rule_generator=true
+surge_ruleset=DIRECT,rules/ConnersHua/Surge/Ruleset/Unbreak.list
+surge_ruleset=🛑 广告屏蔽,https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list
+surge_ruleset=🛑 广告屏蔽,rules/ConnersHua/Surge/Ruleset/Hijacking.list
+surge_ruleset=📺 NETFLIX,rules/ConnersHua/Surge/Ruleset/Media/Netflix.list
+surge_ruleset=🧸 巴哈姆特,rules/ConnersHua/Surge/Ruleset/Media/Bahamut.list
+surge_ruleset=⚙️ 节点选择,rules/ConnersHua/Surge/Ruleset/GlobalMedia.list
+surge_ruleset=🌏 国内媒体,rules/ConnersHua/Surge/Ruleset/DomesticMedia.list
+surge_ruleset=⚙️ 节点选择,rules/ConnersHua/Surge/Ruleset/Global.list
+surge_ruleset=🍎 苹果服务,rules/ConnersHua/Surge/Ruleset/Apple.list
+surge_ruleset=DIRECT,rules/ConnersHua/Surge/Ruleset/China.list
+surge_ruleset=DIRECT,[]GEOIP,CN
+surge_ruleset=⚙️ 节点选择,[]FINAL
+
+clash_rule_base=https://raw.githubusercontent.com/233Bazinga/Passwall/master/dns.yml
