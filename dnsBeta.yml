@@ -14,14 +14,14 @@ dns:
   nameserver:
    - 119.29.29.29
    - 223.5.5.5
-  - tls://dns.rubyfish.cn:853
-  - https://dns.google/dns-query
-  - https://1.1.1.1/dns-query
-fallback:
-  - tls://dns.rubyfish.cn:853
-  - tcp://8.8.8.8
-  - tcp://1.1.1.1
-fallback-filter:
-  geoip: true
-  ipcidr:
-    - 240.0.0.0/4 
+   - tls://dns.rubyfish.cn:853
+   - https://dns.google/dns-query
+   - https://1.1.1.1/dns-query
+ fallback:
+   - tls://dns.rubyfish.cn:853
+   - tcp://8.8.8.8
+   - tcp://1.1.1.1
+ fallback-filter:
+   geoip: true
+   ipcidr:
+     - 240.0.0.0/4 
